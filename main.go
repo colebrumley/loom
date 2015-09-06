@@ -119,7 +119,6 @@ func daemonize(c *cli.Context) {
 									if err := registerWeaveIPToKV(w); err != nil {
 										logger.Error(err)
 									}
-									logger.Debugf("Watching logs for %s", w.ID)
 								} else {
 									logger.Infof("Skipping " + w.Name + " because it's already is the KV store.")
 								}
