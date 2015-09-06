@@ -1,0 +1,13 @@
+machine:
+  services:
+    - docker
+
+  environment:
+    CGO_ENABLED: 0
+    GOPATH: /home/ubuntu/.go_workspace
+
+dependencies:
+  override:
+    - go get -t -d -v ./...
+    - godep go build -o loom_binary -a -installsuffix cgo
+    - cp loom_binary $CIRCLE_ARTIFACTS/loom
