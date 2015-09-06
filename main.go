@@ -1,8 +1,6 @@
 package main
 
 import (
-	//"bytes"
-	//"bufio"
 	"github.com/codegangsta/cli"
 	"github.com/colebrumley/dockeraction"
 	"github.com/docker/libkv/store"
@@ -10,7 +8,6 @@ import (
 	log "github.com/sirupsen/logrus"
 	"os"
 	"strings"
-	//"sync"
 	"time"
 )
 
