@@ -67,7 +67,6 @@ func main() {
 		cli.StringSliceFlag{
 			Name:   "kvurl",
 			Usage:  "KV Store endpoint",
-			Value:  &cli.StringSlice{"127.0.0.1:8500"},
 			EnvVar: "KV_URL_LIST",
 		},
 		cli.BoolFlag{
