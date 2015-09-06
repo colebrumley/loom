@@ -1,0 +1,51 @@
+{
+	"ImportPath": "github.com/colebrumley/loom",
+	"GoVersion": "go1.5",
+	"Deps": [
+		{
+			"ImportPath": "github.com/boltdb/bolt",
+			"Comment": "v1.0-119-g90fef38",
+			"Rev": "90fef389f98027ca55594edd7dbd6e7f3926fdad"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-137-gbca61c4",
+			"Rev": "bca61c476e3c752594983e4c9bcd5f62fb09f157"
+		},
+		{
+			"ImportPath": "github.com/colebrumley/dockeraction",
+			"Rev": "6a66ff61eac02cf0397fa2afa5d33bbe20dec545"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-etcd/etcd",
+			"Comment": "v2.0.0-28-g126041e",
+			"Rev": "126041ef7b24a28359a12f8bf7f6a7db6756113d"
+		},
+		{
+			"ImportPath": "github.com/docker/libkv",
+			"Rev": "34e5abb23ff240967472c07ca1dfd1080fdc7d81"
+		},
+		{
+			"ImportPath": "github.com/fsouza/go-dockerclient",
+			"Rev": "4dae22c493daed4450b52fd936aab1d12b5b5500"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/consul/api",
+			"Comment": "v0.5.2-220-g714dc8a",
+			"Rev": "714dc8a5579cc6dcacbc82c6cebcf183b1829a5a"
+		},
+		{
+			"ImportPath": "github.com/samuel/go-zookeeper/zk",
+			"Rev": "177002e16a0061912f02377e2dd8951a8b3551bc"
+		},
+		{
+			"ImportPath": "github.com/sirupsen/logrus",
+			"Comment": "v0.8.6-7-g9c060de",
+			"Rev": "9c060de643590dae45da9d7c26276463bfc46fa0"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Rev": "5abd4e96a45c386928ed2ca2a7ef63e2533e18ec"
+		}
+	]
+}

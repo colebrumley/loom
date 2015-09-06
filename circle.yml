@@ -8,6 +8,5 @@ machine:
 
 dependencies:
   override:
-    - go get -t -d -v ./...
     - godep go build -o loom_binary -a -installsuffix cgo
     - cp loom_binary $CIRCLE_ARTIFACTS/loom
