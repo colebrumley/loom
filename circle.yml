@@ -11,3 +11,15 @@ dependencies:
     - go get github.com/tools/godep
     - godep go build -o loom_binary -a -installsuffix cgo
     - cp loom_binary $CIRCLE_ARTIFACTS/loom
+
+test:
+  override:
+    - echo "It's fine"
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - docker login -e $DOCKER_EMAIL -u $DOCKER_REPO_LOGIN -p $DOCKER_PASS
+      - docker build -t elcolio/loom .
+      - docker push elcolio/loom
