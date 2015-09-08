@@ -9,7 +9,7 @@ machine:
 dependencies:
   override:
     - go get github.com/tools/godep
-    - godep go build -o loom_binary -a -installsuffix cgo
+    - godep go build -o loom_binary -a -installsuffix cgo kv.go main.go
     - cp loom_binary $CIRCLE_ARTIFACTS/loom
 
 test:

@@ -48,7 +48,7 @@ func init() {
 	baseKey = "network/weave/" + myHostname + "/"
 	dockerClient, err = dockeraction.GetDefaultActionClient()
 	if err != nil {
-		logger.Fatal(err)
+		logger.Error(err)
 	}
 }
 
