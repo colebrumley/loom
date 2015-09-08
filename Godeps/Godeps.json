@@ -14,7 +14,7 @@
 		},
 		{
 			"ImportPath": "github.com/colebrumley/dockeraction",
-			"Rev": "6a66ff61eac02cf0397fa2afa5d33bbe20dec545"
+			"Rev": "db14934efd0eb5eba5ec9ffe9ff7e2ce274d4d22"
 		},
 		{
 			"ImportPath": "github.com/coreos/go-etcd/etcd",
